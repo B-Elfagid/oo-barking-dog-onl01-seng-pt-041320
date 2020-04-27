@@ -7,8 +7,8 @@ class Dog
    end 
   
   def bark
-    @puts "Woof!"
+    puts "Woof!"
     end 
 end 
-  fido = Dog.new 
+  fido.name = Dog.new 
   fido.bark
